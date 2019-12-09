@@ -4,7 +4,7 @@
   "description": "Assets and templates to build the CGWire website",
   "main": "index.js",
   "scripts": {
-	  "start": "node output.js",
+	  "start": "node run",
     "dev": "node output.js --dev",
     "build": "node output.js",
 	 "postinstall": "node output.js"
