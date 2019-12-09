@@ -4,11 +4,10 @@
   "description": "Assets and templates to build the CGWire website",
   "main": "index.js",
   "scripts": {
-	  "start": "node run",
+	  "start": "node server.js",
     "dev": "node output.js --dev",
-    "build": "node output.js",
-	 "postinstall": "node output.js"
-  },
+    "build": "npm run build"
+	},
   "author": "CGWire <frank@cg-wire.côm> (https://cg-wire.com/)",
   "repository": "https://github.com/cgwire/website",
   "license": "AGPL-3.0",
