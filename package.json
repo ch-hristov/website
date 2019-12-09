@@ -6,7 +6,7 @@
   "scripts": {
 	  "start": "node server.js",
     "dev": "node output.js --dev",
-    "build": "npm run build"
+    "build": "node output.js"
 	},
   "author": "CGWire <frank@cg-wire.côm> (https://cg-wire.com/)",
   "repository": "https://github.com/cgwire/website",
