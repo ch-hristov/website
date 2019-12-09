@@ -93,11 +93,6 @@ module.exports = {
         pattern: '*.hbs'
       }))
 
-      // Misc
-      .use(mapsite({
-        omitExtension: true,
-        hostname: "https://www.cgwire.com/" + locale
-      }))
       .use(permalinks({
         pattern: ':title',
         relative: false
